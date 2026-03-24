@@ -1,7 +1,7 @@
 ---
 name: should-i-run-today
 description: Use when the user wants a short, screenshot-driven recommendation on whether today is a good day to run, especially in chat environments with image input. Use for incremental 3-5 turn conversations that analyze one health screenshot at a time, ask red-flag safety questions one by one, and give a conservative running recommendation without pretending to provide medical clearance.
-homepage: "TODO_ADD_GITHUB_HOMEPAGE"
+homepage: "https://github.com/XiaoshengChen/Skill-Pack/tree/main/should-i-run-today"
 ---
 
 # Should I Run Today
