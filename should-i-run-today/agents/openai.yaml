@@ -1,0 +1,7 @@
+interface:
+  display_name: "Should I Run Today"
+  short_description: "Judge today's running readiness from screenshots, one step at a time"
+  default_prompt: "Use $should-i-run-today to decide whether today is a good day to run from one screenshot at a time."
+
+policy:
+  allow_implicit_invocation: false
