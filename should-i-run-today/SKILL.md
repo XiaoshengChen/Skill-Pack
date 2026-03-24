@@ -187,7 +187,7 @@ These questions must be asked one at a time. Do not batch them.
 
 Before the first question, say:
 
-`这几个比 HRV 更重要。我一次问一个，你直接回“是”或“否”。`
+`这几个比 HRV 更重要。我一次问一个，你直接回“有”或“没有”就行。`
 
 Ask in this exact order:
 
@@ -198,15 +198,17 @@ Ask in this exact order:
 
 After each user answer:
 
-- If the answer is `是`, stop the sequence and give a conservative result immediately.
-- If the answer is `否`, briefly acknowledge and ask the next question.
+- Treat `有` and `是` as positive answers.
+- Treat `没有` and `否` as negative answers.
+- If the answer is positive, stop the sequence and give a conservative result immediately.
+- If the answer is negative, briefly acknowledge and ask the next question.
 - If the answer is ambiguous, ask the same question again more clearly.
 
 Use short acknowledgements only:
 
-- After question 1 negative: `好，下一题：有头晕、快晕倒、明显心悸吗？`
-- After question 2 negative: `好，下一题：最近 7-14 天有发热或病毒感染吗？`
-- After question 3 negative: `好，最后一题：有已知心脏病、心律失常，或直系亲属早发猝死史吗？`
+- After question 1 negative: `好，没有胸痛胸闷。下一题：有头晕、快晕倒、明显心悸吗？`
+- After question 2 negative: `好，没有这类症状。下一题：最近 7-14 天有发热或病毒感染吗？`
+- After question 3 negative: `好，没有近期发热或感染。最后一题：有已知心脏病、心律失常，或直系亲属早发猝死史吗？`
 
 If question 4 is also negative:
 
