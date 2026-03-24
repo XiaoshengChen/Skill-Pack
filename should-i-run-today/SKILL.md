@@ -1,6 +1,6 @@
 ---
 name: should-i-run-today
-description: Use when the user wants a short, screenshot-driven recommendation on whether today is a good day to run, especially in chat environments with image input. Use for incremental 3-5 turn conversations that analyze one health screenshot at a time, ask red-flag safety questions one by one, and give a conservative running recommendation without pretending to provide medical clearance.
+description: Use when the user wants a short, screenshot-driven recommendation on whether today is a good day to run, especially in chat environments with image input. Use for incremental 3-5 turn conversations that analyze one health screenshot at a time, ask red-flag safety questions one by one, and give a conservative running recommendation without pretending to provide medical clearance. Trigger on requests like "今天适合跑步吗", "我今天能跑吗", "今天该不该跑步", or similar questions about whether the user should run today.
 homepage: "https://github.com/XiaoshengChen/Skill-Pack/tree/main/should-i-run-today"
 ---
 

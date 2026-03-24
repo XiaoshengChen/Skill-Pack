@@ -4,4 +4,4 @@ interface:
   default_prompt: "Use $should-i-run-today to decide whether today is a good day to run from one screenshot at a time."
 
 policy:
-  allow_implicit_invocation: false
+  allow_implicit_invocation: true
