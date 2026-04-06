@@ -1,0 +1,7 @@
+interface:
+  display_name: "文字滤镜"
+  short_description: "给一句话换一种看世界、看生活、看自己的方式。"
+  default_prompt: "Use $text-filters to rewrite this sentence through one named filter and output 3 short final versions."
+
+policy:
+  allow_implicit_invocation: true
