@@ -2,8 +2,8 @@
 
 [中文](README.md) | [English](README.en.md)
 
-> 同一个念头，有的人说出来像自言自语，有的人说出来像一记耳光。  
-> `转念` 负责把你的句子，从前者改成后者。
+> 每个念头都有一千种不同的样子。  
+> `转念` 帮你看到每一种，找到你最喜欢的那个。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-blueviolet)](https://openai.com)

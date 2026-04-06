@@ -2,8 +2,8 @@
 
 [中文](README.md) | [English](README.en.md)
 
-> The same thought can sound like mumbling in one mouth and a slap in another.  
-> `Shift Mind` turns your sentence from the former into the latter.
+> Every thought has a thousand possible forms.  
+> `Shift Mind` helps you see them all, then choose the one you like most.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-blueviolet)](https://openai.com)
