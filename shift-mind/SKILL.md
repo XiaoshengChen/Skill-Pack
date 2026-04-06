@@ -1,9 +1,9 @@
 ---
-name: text-filters
-description: Rewrite short Chinese text through a named writing filter by first extracting the sentence's real meaning, then upgrading it with the chosen worldview, sentence logic, and metaphor system, and finally outputting 3 short final versions. Use when the user asks for filters such as 王小波滤镜, 张潇雨滤镜, 鲁迅滤镜, 李诞滤镜, or 特德姜滤镜.
+name: shift-mind
+description: Rewrite short Chinese text through a named writing filter by first extracting the sentence's real meaning, then upgrading it with the chosen worldview, sentence logic, and metaphor system, and finally outputting 3 short final versions. Use when the user asks for filters such as 王小波滤镜, 张潇雨滤镜, 鲁迅滤镜, 李诞滤镜, or 特德姜滤镜, or asks to use 转念 / Shift Mind.
 ---
 
-# Text Filters
+# 转念 / Shift Mind
 
 ## Overview
 

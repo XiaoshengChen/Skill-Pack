@@ -1,15 +1,15 @@
-# Text Filters
+# Shift Mind / 转念
 
 [中文](README.md) | [English](README.en.md)
 
 > The same thought can sound like mumbling in one mouth and a slap in another.  
-> `Text Filters` turns your sentence from the former into the latter.
+> `Shift Mind` turns your sentence from the former into the latter.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-blueviolet)](https://openai.com)
 [![Language: English](https://img.shields.io/badge/Language-English-blue.svg)](#)
 
-`Text Filters` is a skill pack for Agent / Codex workflows.  
+`Shift Mind` is a skill pack for Agent / Codex workflows.  
 It is not a grammar polisher, not a synonym machine, and not an AI style costume.
 
 What it does is simpler and sharper:
@@ -48,7 +48,7 @@ Original:
 
 ### Li Dan
 
-> A lot of women's clothing now is not really for wearing. It's mainly for photographing. If clothes only need to serve photos, treating humans a bit worse somehow starts to feel very on brand for the process.
+> A lot of women's clothing now is not really for wearing. It's mainly for photographing. Once clothes exist mainly to serve photos, treating humans a bit worse somehow starts to feel perfectly aligned with the process.
 
 ### Ted Chiang
 
@@ -63,25 +63,25 @@ Original:
 If you are using an agent that can operate on local files, the easiest instruction is:
 
 ```text
-Please install text-filters into my global skills directory.
+Please install shift-mind into my global skills directory.
 ```
 
 Or more explicitly:
 
 ```text
-Please copy the current text-filters directory into my global skills directory and keep README, LICENSE, and references intact.
+Please copy the current shift-mind directory into my global skills directory and keep README, LICENSE, and references intact.
 ```
 
 If the skill already lives somewhere local, for example:
 
 ```text
-D:\5.github\Skill-Pack\text-filters
+D:\5.github\Skill-Pack\shift-mind
 ```
 
 you can simply say:
 
 ```text
-Please install D:\5.github\Skill-Pack\text-filters into my global Codex skills directory.
+Please install D:\5.github\Skill-Pack\shift-mind into my global Codex skills directory.
 ```
 
 ### Option 2: Install by copying manually
@@ -89,13 +89,13 @@ Please install D:\5.github\Skill-Pack\text-filters into my global Codex skills d
 Copy the entire directory to:
 
 ```text
-C:\Users\YOUR_NAME\.codex\skills\text-filters
+C:\Users\YOUR_NAME\.codex\skills\shift-mind
 ```
 
 Example from the current environment:
 
 ```text
-C:\Users\allen\.codex\skills\text-filters
+C:\Users\allen\.codex\skills\shift-mind
 ```
 
 Restart Codex after copying.
@@ -105,13 +105,13 @@ Restart Codex after copying.
 #### Windows PowerShell
 
 ```powershell
-Copy-Item -LiteralPath 'D:\5.github\Skill-Pack\text-filters' -Destination "$HOME\.codex\skills\text-filters" -Recurse
+Copy-Item -LiteralPath 'D:\5.github\Skill-Pack\shift-mind' -Destination "$HOME\.codex\skills\shift-mind" -Recurse
 ```
 
 #### macOS / Linux
 
 ```bash
-cp -R ./text-filters "$HOME/.codex/skills/text-filters"
+cp -R ./shift-mind "$HOME/.codex/skills/shift-mind"
 ```
 
 If the destination already exists, verify whether it is an older version before overwriting it.
@@ -162,7 +162,7 @@ Most so-called "style rewriting" is fake work:
 - imitate a few verbal tics
 - make the sentence longer, emptier, and more AI-looking
 
-`Text Filters` does not do that.
+`Shift Mind` does not do that.
 
 Its default workflow is:
 
@@ -288,7 +288,7 @@ Best for:
 ## Project Structure
 
 ```text
-text-filters/
+shift-mind/
 ├── SKILL.md
 ├── README.md
 ├── README.en.md
@@ -364,4 +364,4 @@ This project is released under the [MIT License](LICENSE).
 ## Final Note
 
 Photos can have filters. Of course words can too.  
-But the real value of a text filter is not making a sentence prettier. It is making it become the sentence it should have been in the first place.
+But the real value of Shift Mind is not making a sentence prettier. It is making it become the sentence it should have been in the first place.

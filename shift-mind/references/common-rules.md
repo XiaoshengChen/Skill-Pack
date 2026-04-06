@@ -2,7 +2,7 @@
 
 ## The Product
 
-`文字滤镜` is not a synonym replacer. It is a worldview filter.
+`转念 / Shift Mind` is not a synonym replacer. It is a worldview filter.
 
 Each filter combines:
 

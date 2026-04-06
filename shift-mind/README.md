@@ -1,15 +1,15 @@
-# 文字滤镜
+# 转念 / Shift Mind
 
 [中文](README.md) | [English](README.en.md)
 
 > 同一个念头，有的人说出来像自言自语，有的人说出来像一记耳光。  
-> `文字滤镜` 负责把你的句子，从前者改成后者。
+> `转念` 负责把你的句子，从前者改成后者。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-blueviolet)](https://openai.com)
 [![Language: Chinese](https://img.shields.io/badge/Language-Chinese-red.svg)](#)
 
-`文字滤镜` 是一个面向 Agent / Codex 的技能包。  
+`转念 / Shift Mind` 是一个面向 Agent / Codex 的技能包。  
 它不是“润色器”，不是“文风同义词生成器”，也不是 AI 套壳改写。
 
 它做的事更直接：
@@ -63,25 +63,25 @@
 如果你在用支持本地文件操作的 Agent，比如 Codex、龙虾之类，最省事的方式就是直接对它说：
 
 ```text
-请把 text-filters 安装到全局 skills 目录。
+请把 shift-mind 安装到全局 skills 目录。
 ```
 
 或者更明确一点：
 
 ```text
-请把当前目录里的 text-filters 复制到全局 skills 目录，并保留 README、LICENSE 和 references。
+请把当前目录里的 shift-mind 复制到全局 skills 目录，并保留 README、LICENSE 和 references。
 ```
 
 如果你已经把它放在本地某个路径，比如：
 
 ```text
-D:\5.github\Skill-Pack\text-filters
+D:\5.github\Skill-Pack\shift-mind
 ```
 
 也可以直接说：
 
 ```text
-请把 D:\5.github\Skill-Pack\text-filters 安装到我的全局 Codex skills 目录。
+请把 D:\5.github\Skill-Pack\shift-mind 安装到我的全局 Codex skills 目录。
 ```
 
 ### 方式二：手动复制安装
@@ -89,13 +89,13 @@ D:\5.github\Skill-Pack\text-filters
 把整个目录复制到：
 
 ```text
-C:\Users\你的用户名\.codex\skills\text-filters
+C:\Users\你的用户名\.codex\skills\shift-mind
 ```
 
 本项目当前环境中的示例路径：
 
 ```text
-C:\Users\allen\.codex\skills\text-filters
+C:\Users\allen\.codex\skills\shift-mind
 ```
 
 复制完成后，重启 Codex。
@@ -105,13 +105,13 @@ C:\Users\allen\.codex\skills\text-filters
 #### Windows PowerShell
 
 ```powershell
-Copy-Item -LiteralPath 'D:\5.github\Skill-Pack\text-filters' -Destination "$HOME\.codex\skills\text-filters" -Recurse
+Copy-Item -LiteralPath 'D:\5.github\Skill-Pack\shift-mind' -Destination "$HOME\.codex\skills\shift-mind" -Recurse
 ```
 
 #### macOS / Linux
 
 ```bash
-cp -R ./text-filters "$HOME/.codex/skills/text-filters"
+cp -R ./shift-mind "$HOME/.codex/skills/shift-mind"
 ```
 
 如果目标目录已存在，建议先确认里面是不是旧版本，再决定要不要覆盖。
@@ -166,7 +166,7 @@ cp -R ./text-filters "$HOME/.codex/skills/text-filters"
 - 模仿几句口头禅
 - 最后把原句写得更长、更空、更像 AI
 
-`文字滤镜` 不走这条路。
+`转念` 不走这条路。
 
 它的默认流程是：
 
@@ -292,7 +292,7 @@ cp -R ./text-filters "$HOME/.codex/skills/text-filters"
 ## 项目结构
 
 ```text
-text-filters/
+shift-mind/
 ├── SKILL.md
 ├── README.md
 ├── README.en.md
@@ -390,7 +390,7 @@ text-filters/
 ## 写在最后
 
 照片可以加滤镜，文字当然也可以。  
-但文字滤镜真正值钱的，不是“变好看”，而是“变得更像它真正应该成为的那句话”。
+但转念真正值钱的，不是“变好看”，而是“变得更像它真正应该成为的那句话”。
 
 有时候我们缺的不是表达能力。  
 只是还没找到那个更适合看这句话的镜头。
