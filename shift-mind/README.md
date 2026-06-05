@@ -75,13 +75,13 @@
 如果你已经把它放在本地某个路径，比如：
 
 ```text
-D:\5.github\Skill-Pack\shift-mind
+D:\5.github\xiaosheng-skills\shift-mind
 ```
 
 也可以直接说：
 
 ```text
-请把 D:\5.github\Skill-Pack\shift-mind 安装到我的全局 Codex skills 目录。
+请把 D:\5.github\xiaosheng-skills\shift-mind 安装到我的全局 Codex skills 目录。
 ```
 
 ### 方式二：手动复制安装
@@ -105,7 +105,7 @@ C:\Users\allen\.codex\skills\shift-mind
 #### Windows PowerShell
 
 ```powershell
-Copy-Item -LiteralPath 'D:\5.github\Skill-Pack\shift-mind' -Destination "$HOME\.codex\skills\shift-mind" -Recurse
+Copy-Item -LiteralPath 'D:\5.github\xiaosheng-skills\shift-mind' -Destination "$HOME\.codex\skills\shift-mind" -Recurse
 ```
 
 #### macOS / Linux

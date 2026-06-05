@@ -75,13 +75,13 @@ Please copy the current shift-mind directory into my global skills directory and
 If the skill already lives somewhere local, for example:
 
 ```text
-D:\5.github\Skill-Pack\shift-mind
+D:\5.github\xiaosheng-skills\shift-mind
 ```
 
 you can simply say:
 
 ```text
-Please install D:\5.github\Skill-Pack\shift-mind into my global Codex skills directory.
+Please install D:\5.github\xiaosheng-skills\shift-mind into my global Codex skills directory.
 ```
 
 ### Option 2: Install by copying manually
@@ -105,7 +105,7 @@ Restart Codex after copying.
 #### Windows PowerShell
 
 ```powershell
-Copy-Item -LiteralPath 'D:\5.github\Skill-Pack\shift-mind' -Destination "$HOME\.codex\skills\shift-mind" -Recurse
+Copy-Item -LiteralPath 'D:\5.github\xiaosheng-skills\shift-mind' -Destination "$HOME\.codex\skills\shift-mind" -Recurse
 ```
 
 #### macOS / Linux
